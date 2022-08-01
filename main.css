@@ -1,0 +1,153 @@
+
+body{
+    background-color: black;
+}
+div.head{
+    display: flex;
+    border: 0ch;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.9;
+    align-items: center;
+    justify-content: space-around;
+}
+a.home{
+    color: #F0860c;
+    font-size: 20px;  
+    text-decoration: none; 
+    /* text decor none means underline is removed from 'a' tag */
+/*  made home as orange and others in white because i am in home , i will create another page 
+and it shoudl take me to about and there home must be white and about must be orange */
+}
+a.about{
+    color: white;
+    font-size: 20px;
+    text-decoration: wavy;
+}
+a.about:hover{
+    font-size: 30px;
+    color: yellow;
+}
+a.projects{
+    color: white;
+    font-size: 20px;
+    text-decoration: wavy;
+}
+a.projects:hover{
+    font-size: 30px;
+    color: yellow;
+}
+a.Achievements{
+    color: white;
+    font-size: 20px;
+    text-decoration: wavy;
+}
+a.Achievements:hover{
+    font-size: 30px;
+    color: yellow;
+}
+
+
+button{
+    position: relative;
+    overflow: hidden;
+    height: 40px;
+    width: 100px;
+    background-color:#F0860c;
+    color: #F0860c;
+}
+button::before{
+    content: '';
+    position: absolute;
+    background: gold;
+    left: -10px;
+    width: 5px;
+    top: 0;
+    bottom: 0;
+}
+button:hover::before{
+    left: calc(100% + 10px);
+    transition: left 3000ms;
+}
+a.btn{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+h2{
+    color: azure;
+    margin-top: 75px;
+    font-style: oblique;
+    /* to leave space use margin top or bottom or left or right */
+
+}
+h1{
+    color: white;
+    margin-top: 30px;
+    font-size: 60px;
+}
+h3{
+    color: #F0860c;
+    margin-top: 20px;
+    
+}
+div.info{
+    display:flex ;
+    justify-content: space-around;
+}
+img.rishi{
+    margin-top: 75px;
+height: 550px;
+width: 550px;
+
+}
+div.content{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+a.gfg{
+    text-decoration: none;
+    color: #10A310;
+}
+a.ieee{
+    text-decoration: none;
+    color: #006699;
+}
+div.foot{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    height: 50px;
+    width: 100%;
+}
+a.insta{
+    color: #8a3ab9;
+    font-size: 35px;
+}
+a.twitter{
+    color: darkblue;
+    font-size: 35px;
+}
+a.twitter{
+    color: darkblue;
+    font-size: 35px;
+}
+a.git{
+    color: white;
+    font-size: 35px;
+}
+a.link{
+    color: rgb(10, 131, 218);
+    font-size: 35px;
+}
+a.hack{
+    color: green;
+    font-size: 35px;
+}
+a.yt{
+    color: rgb(255, 0, 0);
+    font-size: 35px;
+}
